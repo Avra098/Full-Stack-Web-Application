@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Your Profile</h2>
+    <input type="file" id="imageUpload" multiple>
+    <input type="text" id="category" placeholder="Category">
+    <input type="date" id="imageDate" placeholder="Date">
+    <input type="text" id="imageDescription" placeholder="Description">
+    <button id="uploadBtn">Upload</button>
+    <div id="categories-container"></div>
+    <button onclick="logout()">Logout</button>
+    <script src="script.js"></script>
+    <script src="auth.js"></script>
+</body>
+</html>
